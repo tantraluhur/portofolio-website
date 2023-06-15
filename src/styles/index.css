@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@400;500;600;700&family=Inter:wght@100;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@1,400;1,700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: 'Inconsolata';
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  /* background-color: rgb(38, 37, 37); */
+}
+
+#root {
+  
+  height: 100%;
+  width: 100%;
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+  background-image: url('../assets/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
