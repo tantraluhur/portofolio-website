@@ -7,13 +7,31 @@
   box-sizing: border-box;
  }
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #747474
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(165, 165, 165);
+  outline: 1px solid slategrey;
+}
+
 body {
-  font-family: 'Inconsolata';
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  ;
   margin: 0;
   padding: 0;
   height: 100vh;
   display: flex;
-  /* background-color: rgb(38, 37, 37); */
+}
+
+.experiences{
+  background: linear-gradient(to bottom, #161616 15%, #0E0F2A 85%);
+
 }
 
 #root {
@@ -31,7 +49,7 @@ body {
   padding: 0;
   margin: 0;
   z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
-  background-image: url('../assets/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
+  background-image: url('../assets/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

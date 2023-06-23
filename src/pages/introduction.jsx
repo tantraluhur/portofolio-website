@@ -5,7 +5,7 @@ import profileImage from "../assets/profile-image3.png"
 function Introduction() {
   return (
     <>
-      <div className="flex justify-center items-center h-full text-white">
+      <div className="flex justify-center items-center h-screen text-white">
           <Tsparticle />
           <div className="relative flex w-full justify-between mr-20 ml-20">
             <div className="flex justify-center items-center">
@@ -13,13 +13,14 @@ function Introduction() {
                     <div>
                         <NameAnimation/>
                     </div>
-                    <div className="text-xl">
-                        Undergraduate Computer Science student from the University of Indonesia
+                    <div className="text-xl font-sans">
+                        Undergraduate Computer Science student at the University of Indonesia
                     </div>
                 </div>
             </div>
             <div className="flex justify-center items-center">
-                <img src={profileImage} className="rounded-full w-[28rem] h-[30rem] object-cover"/>
+                <div className="bg-white rounded-full bg-opacity-50 h-[26rem] w-[26rem] absolute bottom-0"></div>
+                <img src={profileImage} className="rounded-full w-[26rem] h-[30rem] object-cover relative"/>
             </div>
           </div>
       </div>

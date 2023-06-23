@@ -13,7 +13,7 @@ import Particles from "react-tsparticles";
             },
             links: {
               enable: true, // enabling this will make particles linked together
-              distance: 200,
+              distance: 100,
               opacity: 2,
             },
             move: {
@@ -24,7 +24,7 @@ import Particles from "react-tsparticles";
               value: { min: 0.3, max: 1 }, // using a different opacity, to have some semitransparent effects
             },
             size: {
-              value: { min: 5, max: 20 }, // let's randomize the particles size a bit
+              value: { min: 5, max: 15 }, // let's randomize the particles size a bit
             },
           },
           backgroundMask: {
