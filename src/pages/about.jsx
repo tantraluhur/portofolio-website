@@ -29,6 +29,9 @@ function About() {
           <div className="text-6xl">
             <a href="https://www.instagram.com/apriliantantra/" class="fa fa-instagram" target="_blank"></a>  
           </div>
+          <div className="text-6xl">
+            <a href="mailto:tantraluhur@gmail.com" class="fa fa-envelope-square" target="_blank"></a>  
+          </div>
         </div>
     </div>
   );
