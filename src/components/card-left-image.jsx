@@ -16,7 +16,7 @@ function CardLeft(props) {
                 <img src={img} className="w-[10rem]"/>
             </div>
             <div className="basis-3/4">
-                <div className="text-2xl font-bold text-justify">
+                <div className="text-4xl font-bold text-justify">
                     {props.title}
                 </div>
                 <div>

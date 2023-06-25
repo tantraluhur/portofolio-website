@@ -4,12 +4,11 @@ import CardRight from "../components/card-right-image";
  
 function Experience() {
   return (
-    <> 
-    <div className="">
+    <>
         <div className="text-5xl font-bold mb-12 font-[Inconsolata] flex justify-center">
             WORKING EXPERIENCES
         </div>
-        <div className="grid gap-12">
+        <div className="grid gap-20">
             <CardLeft 
             image="TOKODIZITAL" 
             title="Backend Developer Internship, Toko Dizital"
@@ -40,7 +39,6 @@ function Experience() {
             creating a robust and efficient system for the organization's needs."
             />
         </div>
-    </div>
     </>
   );
 };

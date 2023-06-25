@@ -5,7 +5,7 @@ import profileImage from "../assets/profile-image3.png"
 function Introduction() {
   return (
     <>
-      <div className="flex justify-center items-center h-screen text-white">
+      <div className="flex justify-center items-center text-white">
           <Tsparticle />
           <div className="relative flex w-full justify-between mr-20 ml-20">
             <div className="flex justify-center items-center">

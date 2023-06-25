@@ -6,7 +6,7 @@ function CardRight(props) {
     <>
         <div className="flex justify-between gap-[2rem] h-auto">
             <div className="basis-3/4">
-                <div className="text-2xl font-bold">
+                <div className="text-3xl font-bold">
                     Backend Developer, Faculty Exhibition at Faculty of Business and Economics’s Ticketing Website
                 </div>
                 <div>

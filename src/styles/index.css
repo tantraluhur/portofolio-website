@@ -30,7 +30,7 @@ body {
 }
 
 .experiences{
-  background: linear-gradient(to bottom, #161616 15%, #0E0F2A 85%);
+  background: linear-gradient(to bottom, #161616 15%, #0E0F2A, #2A1238);
 
 }
 
@@ -53,3 +53,29 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fa-github-square {  
+  transition: all 0.5s;
+}  
+
+.fa-github-square:hover{
+  transform: scale(1.3)
+}
+
+.fa-linkedin-square {  
+  transition: all 0.5s;
+}  
+
+.fa-linkedin-square:hover{
+  transform: scale(1.3)
+}
+
+.fa-instagram {  
+  transition: all 0.5s;
+}  
+
+.fa-instagram:hover{
+  transform: scale(1.3)
+}
+
+
