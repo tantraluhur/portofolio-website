@@ -9,14 +9,14 @@ function MainPage() {
       <div className="h-screen">
         <Introduction />
       </div>
-      <div className="p-10 px-32 experiences text-white grid gap-y-24">
-          <div className="h-screen flex justify-center items-center">
+      <div className="py-[2.5vw] px-[6vw] experiences text-white grid gap-y-24">
+          <div className="my-[70px] lg:my-0 lg:h-screen flex justify-center items-center">
             <About /> 
           </div>
           <div className="h-auto">
             <Experience />
           </div>
-          <div className="h-screen">
+          <div className="lg:h-screen my-[70px] lg:my-0">
             <Skill />
           </div>
       </div>

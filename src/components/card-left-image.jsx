@@ -11,19 +11,19 @@ function CardLeft(props) {
     const img = image[props.image]
   return (
     <>
-        <div className="flex justify-between gap-[2rem] h-auto">
-            <div className="border-[2px] border-white rounded-full bg-white h-[15rem] w-[15rem] flex justify-center items-center">
-                <img src={img} className="w-[10rem]"/>
+        <div className="flex justify-between gap-[2rem] h-auto items-center">
+            <div className="border-[2px] border-white rounded-full bg-white h-[15rem] w-[15rem] justify-center items-center hidden lg:flex">
+                <img src={img} className="w-[10rem] hidden lg:block"/>
             </div>
-            <div className="basis-3/4">
-                <div className="text-4xl font-bold text-justify">
+            <div className="w-[80vw] lg:w-[60vw]">
+                <div className="lg:text-[36px] sm:text-[26px] text-[20px] font-bold text-justify">
                     {props.title}
                 </div>
                 <div>
-                    <div className="font-semibold">
+                    <div className="font-semibold sm:text-[16px] text-[14px]">
                         {props.techstack}
                     </div>
-                    <div className="text-justify">           
+                    <div className="text-justify sm:text-[16px] text-[14px]">           
                         {props.desc}
                     </div>
                 </div>

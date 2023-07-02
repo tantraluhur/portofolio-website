@@ -17,11 +17,12 @@ function NameAnimation() {
       repeat={Infinity}
       speed={1}
       deletionSpeed={40}
-      style={{ fontSize: '4em', 
+      style={{
       display: 'inline-block',
       color:"white", 
       fontWeight:600, 
       fontFamily:"Inconsolata"}}
+      className='md:text-[4.5vw] text-[5.5vw]'
     />
   );
 };

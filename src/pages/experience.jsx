@@ -5,10 +5,10 @@ import CardRight from "../components/card-right-image";
 function Experience() {
   return (
     <>
-        <div className="text-5xl font-bold mb-12 font-[Inconsolata] flex justify-center">
+        <div className="md:text-[4.5vw] text-[5.5vw] font-bold mb-12 font-[Inconsolata] flex justify-center">
             WORKING EXPERIENCES
         </div>
-        <div className="grid gap-20">
+        <div className="grid gap-[50px] lg:gap-20 justify-center lg:justify-normal">
             <CardLeft 
             image="TOKODIZITAL" 
             title="Backend Developer Internship, Toko Dizital"
