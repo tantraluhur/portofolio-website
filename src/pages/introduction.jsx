@@ -12,7 +12,7 @@ function Introduction() {
                     <div>
                         <NameAnimation/>
                     </div>
-                    <div className="text-[2.2vw] lg:text-[1.5vw] font-sans">
+                    <div className="text-[2.8vw] lg:text-[1.5vw] font-sans">
                         Undergraduate Computer Science student at the University of Indonesia
                     </div>
                 </div>

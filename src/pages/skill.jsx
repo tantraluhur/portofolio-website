@@ -17,41 +17,41 @@ function Skill() {
                     MY SKILLS
                 </div>
                 <div className="grid gap-12">
-                    <div className="gap-0 lg:gap-[5vw] md:gap-[5vw] lg:justify-center">
-                        <div className="md:text-[26px] text-[20px] font-bold flex justify-center items-center w-full mb-8">
+                    <div className="jusitfy-center">
+                        <div className="lg:text-[26px] text-[32px] font-bold flex justify-center items-center w-full mb-8">
                             Programming Languages
                         </div>
                         <div className="flex gap-[3vw] lg:gap-[10vw] md:gap-[5vw] justify-center">
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={JavaLogo} className="md:w-20 w-16 md:h-20 h-16 object-contain"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={JavaLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-contain"/>
                             </div>
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={PythonLogo} className="md:w-20 w-16 md:h-20 h-16 object-cover"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={PythonLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-cover"/>
                             </div>
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={JavaScriptLogo} className="md:w-20 w-16 md:h-20 h-16 object-cover"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={JavaScriptLogo} className="lg:w-20 w-29 lg:h-20 h-29 object-cover"/>
                             </div>
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={TypeScriptLogo} className="md:w-20 w-16 md:h-20 h-16 object-cover"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={TypeScriptLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-cover"/>
                             </div>
                         </div>
                     </div>
-                    <div className="gap-0 lg:gap-[10vw] md:gap-[5vw] lg:justify-center">
-                        <div className="md:text-[26px] text-[20px] font-bold flex justify-center items-center w-full mb-8">
+                    <div className="justify-center">
+                        <div className="lg:text-[26px] text-[32px] font-bold flex justify-center items-center w-full mb-8">
                             Frameworks
                         </div>
                         <div className="flex gap-[3vw] lg:gap-[10vw] md:gap-[5vw] justify-center">
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={DjangoLogo} className="md:w-20 w-16 md:h-20 h-16 object-contain"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={DjangoLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-contain"/>
                             </div>
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={NodeJSLogo} className="md:w-20 w-16 md:h-20 h-16 object-cover"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={NodeJSLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-cover"/>
                             </div>
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={SpringBootLogo} className="md:w-20 w-16 md:h-20 h-16 object-cover"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={SpringBootLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-cover"/>
                             </div>
-                            <div className="md:w-24 w-20 md:h-24 h-20 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
-                                <img src={ReactLogo} className="md:w-20 w-16 md:h-20 h-16 object-cover"/>
+                            <div className="lg:w-24 w-32 lg:h-24 h-32 bg-white rounded-full flex justify-center items-center transition hover:scale-[1.3]">
+                                <img src={ReactLogo} className="lg:w-20 w-28 lg:h-20 h-28 object-cover"/>
                             </div>
                         </div>
                     </div>
