@@ -6,9 +6,9 @@ function Introduction() {
   return (
       <div className="flex justify-center items-center text-white h-full">
           <Tsparticle />
-          <div className="relative lg:flex w-[100vw] justify-between mr-[4vw] ml-[4vw] flex-col-reverse lg:flex-row">
-            <div className="flex items-center justify-center w-[80vw] lg:w-[60vw] mb-[-100.5rem] lg:mb-[0]">
-                <div className="w-full mt-14 lg:mt-0">
+          <div className="flex relative flex-col-reverse gap-8 lg:flex-row lg:w-full lg:justify-between lg:mx-16">
+            <div className="flex items-center justify-center">
+                <div className="">
                     <div>
                         <NameAnimation/>
                     </div>
@@ -17,9 +17,9 @@ function Introduction() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center items-center">
-                <div className="bg-white rounded-full bg-opacity-50 lg:h-[20vw] sm:h-[30vw] h-[40vw] lg:w-[20vw] sm:w-[30vw] w-[40vw] absolute bottom-0"></div>
-                <img src={profileImage} className="rounded-full w-[40vw] sm:w-[30vw] lg:w-[20vw] h-[44vw] sm:h-[34vw] lg:h-[24vw] object-cover absolute lg:relative bottom-0"/>
+            <div className="flex items-end justify-center">
+                <div className="bg-white rounded-full bg-opacity-50 w-[18rem] h-[18rem] absolute"></div>
+                <img src={profileImage} className="rounded-full w-[18rem] h-[20rem] object-cover relative"/>
             </div>
           </div>
       </div>

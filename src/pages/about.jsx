@@ -5,10 +5,10 @@ import profileImage from "../assets/profile-image3.png"
 function About() {
   return (
     <div className="grid gap-y-12">
-        <div className="md:text-[4.5vw] text-[5.5vw] text-center font-bold font-[Inconsolata]">
+        <div className="lg:text-[60px] text-[5.5vw] text-center font-bold font-[Inconsolata]">
             ABOUT ME
         </div>
-        <div className="text-justify lg:text-[1.5vw] text-[14px]">
+        <div className="text-justify lg:text-[20px] text-[18px]">
             Hello, I'm Tantra &#128075;, undergraduate Computer Science &#128187; student from University of Indonesia with a strong passion for 
             software engineering, specializing in web development. With experience in both frontend and backend development, 
             I possess a strong &#128170;command over languages such as Javascript, Python, and Java. Additionally, I am skilled &#128526; in 
@@ -16,7 +16,7 @@ function About() {
             science and a diverse skill set, I am motivated to contribute to the ever-evolving world of software development 
             and create impactful solutions, so feel free to contact me &#128516;.
         </div>  
-        <div className="md:text-[2.5vw] text-[3.5vw] font-bold flex gap-x-[5vw]">
+        <div className="lg:text-[35px] text-[3.5vw] font-bold flex gap-x-[5vw]">
           <div className="flex justify-left items-center">
             Reach Me Out!
           </div>

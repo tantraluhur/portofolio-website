@@ -16,9 +16,9 @@ function Skill() {
                 <div className="md:text-[4.5vw] text-[5.5vw] text-center font-bold font-[Inconsolata] mb-12">
                     MY SKILLS
                 </div>
-                <div className="grid gap-8">
-                    <div className="lg:flex gap-0 lg:gap-[10vw] md:gap-[5vw] lg:justify-center">
-                        <div className="md:text-[26px] text-[20px] font-bold flex justify-center items-center lg:w-36 mb-4">
+                <div className="grid gap-12">
+                    <div className="gap-0 lg:gap-[5vw] md:gap-[5vw] lg:justify-center">
+                        <div className="md:text-[26px] text-[20px] font-bold flex justify-center items-center w-full mb-8">
                             Programming Languages
                         </div>
                         <div className="flex gap-[3vw] lg:gap-[10vw] md:gap-[5vw] justify-center">
@@ -36,8 +36,8 @@ function Skill() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:flex gap-0 lg:gap-[10vw] md:gap-[5vw] lg:justify-center">
-                        <div className="md:text-[26px] text-[20px] font-bold flex justify-center items-center lg:w-36 mb-4">
+                    <div className="gap-0 lg:gap-[10vw] md:gap-[5vw] lg:justify-center">
+                        <div className="md:text-[26px] text-[20px] font-bold flex justify-center items-center w-full mb-8">
                             Frameworks
                         </div>
                         <div className="flex gap-[3vw] lg:gap-[10vw] md:gap-[5vw] justify-center">
